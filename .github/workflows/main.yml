@@ -70,6 +70,12 @@ jobs:
 
         echo "Aplicação executada com sucesso!"        
 
+    - name: 4.5. Executando testes automatizados
+      run: |
+        echo " iniciando bateria de testes"
+
+        node test.js
+    
     - name: 5. Mensagem de sucesso
 
       run: |
